@@ -1,14 +1,12 @@
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          <code>
-            const message = 'Hello World!'
-          </code>
-        </h2>
+        <h2>Let's get started!</h2>
+        <ExpenseItem/>
       </header>
     </div>
   );
